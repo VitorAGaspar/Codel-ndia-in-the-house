@@ -13,7 +13,7 @@ const Card = ({ title, description }) => {
   return (
     <Wrapper>
       <Container>
-        <ProjectImage src="../src/Assets/Images/ProjectImage.png" />
+        <ProjectImage src="../Images/ProjectImage.png" />
         <ProjectTitle>{title}</ProjectTitle>
         <ProjectDescription>{description}</ProjectDescription>
         <ButtonWrapper>

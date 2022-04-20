@@ -6,8 +6,12 @@ import { Wrapper } from "./style";
 const Projects = () => {
   return (
     <Wrapper>
-      {ProjectList.map((Project) => (
-        <Card title={Project.name} description={Project.description} />
+      {ProjectList.map((Project, index) => (
+        <Card
+          key={index}
+          title={Project.name}
+          description={Project.description}
+        />
       ))}
     </Wrapper>
   );

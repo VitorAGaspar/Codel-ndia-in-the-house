@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <Wrapper>
       <Nav>
-        <Logo src="../src/Assets/Images/logo.svg" />
+        <Logo src="../Images/logo.svg" />
         <List>
           <LinkList>MEU GITHUB</LinkList>
           <LinkList variant>ENTRAR NA COMUNIDADE</LinkList>
